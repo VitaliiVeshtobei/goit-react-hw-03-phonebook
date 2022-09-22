@@ -7,7 +7,6 @@ export class Form extends Component {
     number: '',
   };
   handleChange = evt => {
-    console.log(evt.currentTarget.name);
     this.setState({
       [evt.currentTarget.name]: evt.currentTarget.value,
     });
